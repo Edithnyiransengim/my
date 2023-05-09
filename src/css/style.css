@@ -1,0 +1,29 @@
+
+body{
+    background-color: aqua;
+}
+.App{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr;
+    grid-template-rows:   0.2fr 1fr 0.2fr;
+    grid-template-areas:  "Side Header"
+                          "Side Content"
+                          "Side Footer";
+}
+.Header{
+    grid-area: Header;
+    background-color: blueviolet;
+}
+.Content{
+    grid-area: Content;
+    background-color: rgb(197, 122, 10);
+}
+.Side{
+    grid-area: Side;
+    background-color: brown;
+}
+.Footer{
+    grid-area: Footer;
+    background-color: blue;
+}
